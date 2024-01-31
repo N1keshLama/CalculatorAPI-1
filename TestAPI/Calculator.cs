@@ -18,25 +18,25 @@ namespace MyApp.Namespace
         }
         
         [HttpGet]
-        public decimal Subtract(decimal num1, decimal num2)
+        public decimal Sub(decimal num1, decimal num2)
         {  
            decimal subractResult = num1 - num2;
             return subractResult;
         }
         [HttpGet]
-        public decimal Multiply(decimal num1, decimal num2)
+        public decimal Mul(decimal num1, decimal num2)
         {  
            decimal MulResult = num1 * num2;
             return MulResult;
         }
         [HttpGet]
-        public decimal Divide(decimal num1, decimal num2)
+        public decimal Div(decimal num1, decimal num2)
         {  
            decimal DivResult = num1 / num2;
             return DivResult;
         }
         [HttpGet]
-        public decimal Modulo(decimal num1, decimal num2)
+        public decimal Mod(decimal num1, decimal num2)
         {  
            decimal ModResult = num1 % num2;
             return ModResult;
